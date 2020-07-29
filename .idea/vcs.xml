@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Fit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Fit/RoomWithAView2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WorkoutLog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/skunkworksbat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wiki/WorkoutLog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wiki/apps-android-commons" vcs="Git" />
+  </component>
+</project>
