@@ -34,4 +34,10 @@ class WordRepository {
             mWordDao.insert(word);
         });
     }
+
+    void delete(String word){
+        WordRoomDatabase.databaseWriteExecutor.execute(()->{
+            mWordDao.delete(word);
+        });
+    }
 }

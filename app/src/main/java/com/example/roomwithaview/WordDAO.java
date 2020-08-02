@@ -4,6 +4,7 @@ import java.util.List;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
+import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
@@ -18,4 +19,9 @@ public interface WordDAO {
 
     @Query("SELECT * from word_table ORDER BY word ASC")
     LiveData<List<Word>> getAlphabetizedWords();
+
+   @Query("DELETE FROM word_table WHERE word =:name")
+    void delete(String name);
+   /*@Delete
+    void delete(Word word);*/
 }

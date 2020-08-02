@@ -20,4 +20,6 @@
     values-round/strings.xml for round devices.
     -->
     <string name="hello_world">Hello Square World!</string>
+    <!-- Delete Button for home page -->
+    <string name="delete_word">Delete Word</string>
 </resources>
